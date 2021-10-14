@@ -14,6 +14,7 @@
     grid-gap: 5px;
     max-width: 800px;
     width: 75%;
+    margin: 0 auto;
 
 
 
@@ -27,17 +28,19 @@
     grid-template-columns: repeat(2, 1fr);
     
    }
+   #studio-logo{
+    width: 375px
+}
 
    #app-title{
-      font-family:'Courier New';
-   }
-
-   #studio-logo{
-       width: 250px
+      font-weight: bold;
+      font-family:'Courier New', Courier, monospace;
+      
    }
 
 #dropdown{
     grid-area: dropdown;
+    text-align: center;
 }
 
 #display-info{
