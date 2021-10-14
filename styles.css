@@ -6,7 +6,7 @@
     display: grid;
     grid-template-areas: 
     "logo logo"
-    "dropdown dropdown"
+    "eletwo eletwo"
     "display-info display-info"
     "text-input text-input"
     "list-ul list-ul"
@@ -15,11 +15,8 @@
     max-width: 800px;
     width: 75%;
     margin: 0 auto;
-
-
-
-
 }
+
 
 #header-logo{
     background-color: skyblue;
@@ -38,8 +35,16 @@
       
    }
 
+   #eletwo{
+    grid-area: eletwo;
+    grid-template-columns: repeat(2, 1fr);
+   }
+
 #dropdown{
-    grid-area: dropdown;
+    border-radius: 5px;
+    border-color: dodgerblue;
+    border-width: 2px;
+    font-family: monospace;
     text-align: center;
 }
 
