@@ -1,6 +1,7 @@
 #main{
     background-color: lavender;
 }
+
 #title-main{
     display: grid;
     grid-template-areas: 
@@ -16,10 +17,41 @@
 
 
 
-}
-#header-logo{
-    grid-area: logo;
-    border: 1px solid black;
-    padding: 10px 20px;
 
+}
+
+#header-logo{
+    background-color: skyblue;
+    grid-area: logo;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    
+   }
+
+   #app-title{
+      font-family:'Courier New';
+   }
+
+   #studio-logo{
+       width: 250px
+   }
+
+#dropdown{
+    grid-area: dropdown;
+}
+
+#display-info{
+    grid-area: display-info;
+}
+
+#text-input{
+    grid-column: text-input;
+}
+
+#list-ul{
+    grid-area: list-ul;
+}
+
+#film-review-text{
+    grid-column: film-review-text;
 }
