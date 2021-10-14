@@ -6,12 +6,12 @@
     display: grid;
     grid-template-areas: 
     "logo logo"
-    "eletwo eletwo"
+    "dropdown dropdown"
     "display-info display-info"
     "text-input text-input"
     "list-ul list-ul"
     "film-review-text film-review-text";
-    grid-gap: 5px;
+    grid-gap: 20px;
     max-width: 800px;
     width: 75%;
     margin: 0 auto;
@@ -41,6 +41,7 @@
    }
 
 #dropdown{
+  
     border-radius: 5px;
     border-color: dodgerblue;
     border-width: 2px;
